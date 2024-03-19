@@ -66,7 +66,7 @@ def scrape_with_selenium(url, header):
 
 
 if __name__ == '__main__':
-    base_url = 'https://staff.am/en/'
+    url = 'https://staff.am/en/'
     header = ['Job name', 'Company', 'Deadline', 'Location']
 
-    scrape_with_selenium(base_url, header)
+    scrape_with_selenium(url, header)
